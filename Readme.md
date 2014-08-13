@@ -66,9 +66,9 @@ If you are having issues, contact the authors directly.
 License
 -------
 
-This projected is licensed under the terms of the MIT license. See LICENCE.txt for details
+This project is licensed under the terms of the MIT license. See LICENCE.txt for details
 
-TODO
-------
+DOCUMENTATION
+-------------
 
-Prepare installation script
+Refer to the detailed Documentation and presentation in the doc folder

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Smart-chat : ">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Smart-chat</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/rishirdua/smart-chat">View on GitHub</a>
+
+          <h1 id="project_title">Smart-chat</h1>
+          <h2 id="project_tagline"></h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/rishirdua/smart-chat/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/rishirdua/smart-chat/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="smart-chat" class="anchor" href="#smart-chat"><span class="octicon octicon-link"></span></a>SMART-CHAT</h1>
+
+<p>A chat application that provides real-time recommendations when user discusses about movies, restaurants, products, travel etc. on chat. The application works on user click tracking and explicit user feedback to learn preferences and personalize future recommendations and improve classification accuracy.</p>
+
+<h2>
+<a name="authors" class="anchor" href="#authors"><span class="octicon octicon-link"></span></a>Authors</h2>
+
+<p>Rishi Dua <a href="http://github.com/rishirdua">http://github.com/rishirdua</a>
+Harvineet Singh <a href="https://github.com/harvineet">https://github.com/harvineet</a></p>
+
+<h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<ol>
+<li><p>Install server
+1a. Install tasksel
+sudo apt-get install tasksel
+1b. Install LAMP Server from tasksel
+1c. Copy the files from src/smart-chat to where you want to host (eg: var/www/smart-chat or htdocs/smart-chat/)</p></li>
+<li><p>Install scikit-learn from <a href="http://www.lfd.uci.edu/%7Egohlke/pythonlibs/">http://www.lfd.uci.edu/~gohlke/pythonlibs/</a>
+2a. Install dependencies:
+sudo apt-get install build-essential python-dev python-setuptools \
+                 python-numpy python-scipy \
+                 libatlas-dev libatlas3gf-base
+2b. Download source
+2c. Extract source and build with
+sudo python setup.py install
+(Make sure you have c++ installed)
+note: Don't use 3rd party distro as it gives an error</p></li>
+<li><p>Install beautiful soup (<a href="http://www.crummy.com/software/BeautifulSoup/#Download">http://www.crummy.com/software/BeautifulSoup/#Download</a>)
+sudo apt-get install python-bs4</p></li>
+<li><p>Download nltk and nltk data
+(NOTE: Use sudo -E if you need user variables eg: proxy settings)
+6a. Install settuptools (<a href="http://pypi.python.org/pypi/setuptools">http://pypi.python.org/pypi/setuptools</a>)
+wget <a href="https://bootstrap.pypa.io/ez_setup.py">https://bootstrap.pypa.io/ez_setup.py</a>
+sudo pyhon ez_setup.py
+6b. Install Pip: run
+sudo easy_install pip
+6c. Install NLTK: run
+sudo pip install -U nltk
+6d. Install wordnet data. Run python and type
+import nltk
+nltk.download()
+Ensure that server is running using root user account and the nltk.data directory is downloaded for that user account</p></li>
+<li><p>Configuration:
+5a. config.py (only if you have proxy internet connection on the server end of the application)
+5b. config.php (most options are self-explanatory)</p></li>
+</ol><h2>
+<a name="contribute" class="anchor" href="#contribute"><span class="octicon octicon-link"></span></a>Contribute</h2>
+
+<ul>
+<li>Issue Tracker: <a href="https://github.com/rishirdua/smart-chat/">https://github.com/rishirdua/smart-chat/</a>
+</li>
+<li>Source Code: github.com/rishirdua/smartchat</li>
+<li>Project page: <a href="http://rishirdua.github.io/smart-chat">http://rishirdua.github.io/smart-chat</a>
+</li>
+</ul><h2>
+<a name="support" class="anchor" href="#support"><span class="octicon octicon-link"></span></a>Support</h2>
+
+<p>If you are having issues, contact the authors directly.</p>
+
+<h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>This projected is licensed under the terms of the MIT license. See LICENCE.txt for details</p>
+
+<h2>
+<a name="todo" class="anchor" href="#todo"><span class="octicon octicon-link"></span></a>TODO</h2>
+
+<p>Prepare installation script</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Smart-chat maintained by <a href="https://github.com/rishirdua">rishirdua</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>

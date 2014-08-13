@@ -68,7 +68,7 @@ License
 
 This project is licensed under the terms of the MIT license. See LICENCE.txt for details
 
-DOCUMENTATION
+Documentation
 -------------
 
 Refer to the detailed Documentation and presentation in the doc folder
